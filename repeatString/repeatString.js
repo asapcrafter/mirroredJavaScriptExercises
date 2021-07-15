@@ -1,5 +1,4 @@
-const repeatString = function() {
-    function repeatString(string, times) {
+const repeatString = function(string, times) {
         if (times < 0) {
             return 'ERROR';
         }
@@ -13,7 +12,6 @@ const repeatString = function() {
                 }
             return totalString;
         }
-    }
-};
+    };
 
 module.exports = repeatString;
